@@ -1,10 +1,10 @@
 def pedir_cantidad():
-    return int(input("Digite la cantidad de números que desea sumar: "))
+    return int(input("ingrese la cantidad de números que desea sumar: "))
 
 def sumar_numeros(cantidad):
     suma = 0
     for i in range(cantidad):
-        numero = int(input(f"Digite el número {i + 1}: "))
+        numero = int(input(f"ingrese el número {i + 1}: "))
         suma += numero
     return suma
 
@@ -18,4 +18,5 @@ def main():
 
 # Programa principal
 main()
+
 
